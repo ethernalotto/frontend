@@ -18,7 +18,7 @@ export default function App({Component, pageProps}) {
             <link rel="icon" href="/favicon.png"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <meta name="theme-color" content="#000000"/>
-            <meta name="description" content="EthernaLotto"/>
+            <meta name="description" content="EthernaLotto global decentralized lottery"/>
           </Head>
           <Component {...pageProps}/>
         </SSRProvider>

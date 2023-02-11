@@ -27,7 +27,7 @@ const currencies = {
 };
 
 
-const JackpotConversion = ({jackpot}) => {
+export const JackpotConversion = ({jackpot}) => {
   const {library} = useWeb3React();
   const [currency, setCurrency] = useState('USD');
   const [converted, setConverted] = useState(null);

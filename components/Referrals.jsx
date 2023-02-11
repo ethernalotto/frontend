@@ -101,7 +101,7 @@ const WizardInner = ({lottery}) => {
               border: '0.5em solid gray',
               borderRadius: '0.5em',
             }}
-            src={`https://${process.env.NEXT_PUBLIC_SITE_NAME}/widget?code=${getWidgetCode()}`}
+            src={`/widget?code=${getWidgetCode()}`}
             />
         <p>
           You can embed the above HTML in any website. Your wallet <code>{account}</code> will get

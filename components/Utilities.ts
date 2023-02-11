@@ -22,6 +22,22 @@ export const COMBINATIONS = [
 ];
 
 
+export const MONTHS = [
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec',
+];
+
+
 export function range(length: number): number[] {
   return Array.from({length}, (_, i) => i);
 }

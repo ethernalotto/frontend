@@ -5,7 +5,7 @@ import {useWeb3React} from '@web3-react/core';
 
 import {LotteryContext} from './LotteryContext';
 import {ModalContext, Modal} from './Modals';
-import {range, COMBINATIONS} from './Utilities';
+import {range, COMBINATIONS, MONTHS} from './Utilities';
 
 
 const Picker = ({numbers, onClick}) => (
@@ -134,22 +134,6 @@ const NumberStats = ({lottery, numbers}) => {
     </div>
   );
 };
-
-
-const MONTHS = [
-  'Jan',
-  'Feb',
-  'Mar',
-  'Apr',
-  'May',
-  'Jun',
-  'Jul',
-  'Aug',
-  'Sep',
-  'Oct',
-  'Nov',
-  'Dec',
-];
 
 
 const PlayButton = ({lottery, numbers, onPlayed}) => {
